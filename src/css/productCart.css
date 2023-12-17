@@ -1,0 +1,45 @@
+
+.cart {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background-color: #364364;
+	transition: 0.1s;
+	cursor: pointer;
+	position: fixed; 
+	top: 80px; 
+	right: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	object-fit: contain;
+	padding: 15px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Увеличиваем кнопку при наведении на нее */
+  .cart:hover {
+	transform: scale(1.1);
+  }
+  
+  /* Стилизуем счетчик товаров */
+  .cart__num {
+	position: absolute;
+	background-color: #d62240;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	top: -5px;
+	right: -5px;
+  }
+  
+  .cart__image {
+	  width: 37px;
+  }
+
